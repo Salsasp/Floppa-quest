@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Super Mario Bros. - Coin Sound Effect.mp3-b50b429aedbbc2d97c7e2586f0a6d441.mp3str"
+
+[deps]
+
+source_file="res://Collectable/Super Mario Bros. - Coin Sound Effect.mp3"
+dest_files=[ "res://.import/Super Mario Bros. - Coin Sound Effect.mp3-b50b429aedbbc2d97c7e2586f0a6d441.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

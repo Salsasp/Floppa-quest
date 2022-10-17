@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/floppa_music.mp3-b69b6a68fd9410f9acbcd32be5e3edaa.mp3str"
+
+[deps]
+
+source_file="res://src/Levels/floppa_music.mp3"
+dest_files=[ "res://.import/floppa_music.mp3-b69b6a68fd9410f9acbcd32be5e3edaa.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
