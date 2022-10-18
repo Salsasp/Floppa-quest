@@ -63,7 +63,7 @@ collision_layer = 5
 collision_mask = 13
 script = ExtResource( 1 )
 
-[node name="FloppaSprite" type="AnimatedSprite" parent="."]
+[node name="FloppaSprite" type="AnimatedSprite" parent="." groups=["player"]]
 position = Vector2( 34, -8 )
 scale = Vector2( 0.328571, 0.324292 )
 z_index = 1
@@ -84,7 +84,7 @@ frames = SubResource( 7 )
 flip_h = true
 
 [node name="SlashArea" type="Area2D" parent="SlashSprite" groups=["hitbox"]]
-collision_layer = 2
+collision_layer = 6
 monitoring = false
 monitorable = false
 

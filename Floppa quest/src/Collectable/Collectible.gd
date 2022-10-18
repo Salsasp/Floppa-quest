@@ -6,9 +6,8 @@ var num_collected = 0
 
 
 func _on_CollectableArea2D_body_entered(body):
-	print("2d area entered")
-	print(body)
 	if body.is_in_group("player"):
+		print("success")
 		get_node("PickupSound").play()
 
 

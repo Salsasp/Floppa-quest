@@ -6,7 +6,7 @@
 [ext_resource path="res://src/Actors/Enemy/Enemy.tscn" type="PackedScene" id=4]
 [ext_resource path="res://src/Levels/floppa_music.mp3" type="AudioStream" id=5]
 [ext_resource path="res://Floppa Folder/Fanta_logo_(2009).svg.png" type="Texture" id=6]
-[ext_resource path="res://Collectable/Collectible.tscn" type="PackedScene" id=7]
+[ext_resource path="res://src/Collectable/Collectible.tscn" type="PackedScene" id=7]
 
 [sub_resource type="OccluderPolygon2D" id=1]
 polygon = PoolVector2Array( 32, 32, 0, 32, 0, 0, 32, 0 )
@@ -468,11 +468,11 @@ collision_layer = 9
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
 
-[node name="Collectible" parent="." instance=ExtResource( 7 )]
-position = Vector2( 649, 377 )
+[node name="Collectable" parent="." groups=["collectable"] instance=ExtResource( 7 )]
+position = Vector2( 754, 538 )
 
-[node name="Collectible2" parent="." instance=ExtResource( 7 )]
-position = Vector2( 214, 539 )
+[node name="Collectable2" parent="." groups=["collectable"] instance=ExtResource( 7 )]
+position = Vector2( 745, 383 )
 
-[node name="Collectible3" parent="." instance=ExtResource( 7 )]
-position = Vector2( 269, 380 )
+[node name="Collectable3" parent="." groups=["collectable"] instance=ExtResource( 7 )]
+position = Vector2( 220, 379 )
