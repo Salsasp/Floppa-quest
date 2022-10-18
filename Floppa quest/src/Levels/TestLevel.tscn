@@ -467,7 +467,6 @@ collision_layer = 9
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
-autoplay = true
 
 [node name="Collectible" parent="." instance=ExtResource( 7 )]
 position = Vector2( 649, 377 )

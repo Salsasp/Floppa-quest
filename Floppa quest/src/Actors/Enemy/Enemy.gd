@@ -29,9 +29,13 @@ func update_facing_direction(nodeName: String):
 	
 func take_damage(numDamage: int):
 	get_node("DeathSound").play()
+	get_node("BingusEdited").frame = 1
+	yield(get_tree().create_timer(0.2), "timeout")
+	get_node("BingusEdited").frame = 0
 	HP -= numDamage
 	if HP <= 0:
 		queue_free()
+
 
 
 func _on_EnemyArea2D_area_entered(area):
